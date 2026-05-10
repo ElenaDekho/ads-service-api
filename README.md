@@ -32,27 +32,27 @@ admin — управляет любыми объявлениями и польз
 
 ## Эндпоинты
 
-Метод	            Эндпоинт	            Описание
+Метод	        /     Эндпоинт	     /        Описание
 
-POST	            /user	                  Создать пользователя
+POST	            /user	                  - Создать пользователя
 
-GET	              /user/{id}	            Получить пользователя
+GET	              /user/{id}	            - Получить пользователя
 
-PATCH	            /user/{id}	            Обновить пользователя
+PATCH	            /user/{id}	            - Обновить пользователя
 
-DELETE	          /user/{id}	            Удалить пользователя
+DELETE	          /user/{id}	            - Удалить пользователя
 
-POST	            /login	                Авторизация, возвращает токен
+POST	            /login	                - Авторизация, возвращает токен
 
-POST	            /advertisement	        Создать объявление (требуется токен)
+POST	            /advertisement	        - Создать объявление (требуется токен)
 
-GET	              /advertisement/{id}	    Получить объявление
+GET	              /advertisement/{id}	    - Получить объявление
 
-PATCH	            /advertisement/{id}	    Обновить объявление (требуется токен)
+PATCH	            /advertisement/{id}	    - Обновить объявление (требуется токен)
 
-DELETE	          /advertisement/{id}	    Удалить объявление (требуется токен)
+DELETE	          /advertisement/{id}	    - Удалить объявление (требуется токен)
 
-GET	              /advertisement	        Поиск объявлений (по title, price_min, price_max)
+GET	              /advertisement	        - Поиск объявлений (по title, price_min, price_max)
 
 ## Тестирование
 
